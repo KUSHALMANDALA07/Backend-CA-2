@@ -16,7 +16,6 @@ app.get("/userdata",(req,res)=>{
     }
 })
 
-
 app.post("/userfield",(req,res)=>{
     try {
         const {username,email,password,dateofbirth}=req.body
